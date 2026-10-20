@@ -1,0 +1,108 @@
+* {box-sizing: border-box;}
+
+.content {
+    background-color: rgba(0, 255, 255, 0.178);
+    color: blue;
+}
+
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(135deg, #1e3a8a, #6366f1);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #e0e7ff;
+}
+
+/* Main section */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+/* Box Model diagram */
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Margin */
+.margin {
+    background-color: #fef3c7;
+    border: 2px dashed #f59e0b;
+    padding: 35px;
+    border-radius: 12px;
+}
+
+/* Border */
+.border {
+    background-color: #ede9fe;
+    border: 5px solid #7c3aed;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+/* Padding */
+.padding {
+    background-color: #d1fae5;
+    border: 3px solid #34d399;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+/* Content */
+.content {
+    background-color: #dbeafe;
+    border: 2px solid #60a5fa;
+    border-radius: 8px;
+    padding: 35px 20px;
+    color: #1d4ed8;
+    font-size: 24px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.content:hover {
+    transform: scale(1.03);
+}
+
+/* Layer labels */
+.margin > span,
+.border > span,
+.padding > span {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.margin > span {
+    color: #92400e;
+}
+
+.border > span {
+    color: #5b21b6;
+}
+
+.padding > span {
+    color: #065f46;
+}
