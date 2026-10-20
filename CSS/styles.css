@@ -106,3 +106,27 @@ section h2 {
 .padding > span {
     color: #065f46;
 }
+
+.big-duel {
+    margin-top: 50px;
+}
+
+.container-duel {
+    display: flex;
+    justify-content: space-around;
+
+    .content-box {
+        box-sizing: content-box;
+        width: 300px;
+        padding: 20px;
+        border: 5px solid red;
+    }
+
+    .border-box {
+        box-sizing: border-box;
+        width: 300px;
+        padding: 20px;
+        border: 5px solid orange;
+    }
+
+}
